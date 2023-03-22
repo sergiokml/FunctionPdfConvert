@@ -1,7 +1,7 @@
 ﻿<br />
 <p align="center">
   <a href="" target="_blank">
-    <img width="10%" src="https://symbols.getvecta.com/stencil_28/38_functions.09b75fbe38.svg" alt="Azure Function">
+    <img width="20%" src="https://coralogix.com/wp-content/uploads/2021/02/Azure-Functions_large.png" alt="Azure Function">
   </a>
 </p>
 <br />
