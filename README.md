@@ -20,10 +20,7 @@
   </a>
   <a href="https://github.com/sergiokml/FunctionPdfConvert/releases" target="_blank">
     <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/sergiokml/FunctionPdfConvert/total">
-  </a>
-  <a>
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/sergiokml/FunctionPdfConvert">
-  </a>
+  </a> 
 </p>
 <br />
 
