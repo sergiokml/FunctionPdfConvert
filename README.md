@@ -28,12 +28,28 @@ Function Azure that allows to upload a file and download it as PDF format.
 This application is not for converting an XML file using the standards for electronic invoices set by [Servicio de Impuestos Internos](https://www.sii.cl/).
 
 ### ✅&nbsp; Details
-![GitHub all releases](https://img.shields.io/github/downloads/sergiokml/FunctionPdfConvert/total)
-+ 
+
+<table>
+  <thead>
+  </thead>
+  <tbody>
+    <tr>    
+      <td style="text-align: left;">Framework .Net 6.0</td>      
+    </tr>    
+    <tr>   
+      <td style="text-align: left;">Azure Funtions 4.1.1</td>      
+    </tr>
+    <tr>   
+      <td style="text-align: left;">Sdk Graph 5.2.0</td>      
+    </tr>
+    <tr>   
+      <td style="text-align: left;">Azure Identity 1.8.2</td>      
+    </tr>
+  </tbody>
+</table>
+
 
 ### ✅&nbsp; Requirements
-
-For deploy or test this tool you needs:
 
 + A subscription account [Office365](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
 
@@ -43,21 +59,21 @@ This function can be hosted on a server and called from a POST request, upload t
 
 These are the [supported](https://learn.microsoft.com/en-us/graph/api/driveitem-get-content-format?view=graph-rest-1.0&tabs=http#format-options) files:
 
-<table aria-label="Table 3" class="table table-sm">
-<thead>
-<tr>
-<th style="text-align: left;">Format value</th>
-<th style="text-align: left;">Description</th>
-<th>Supported source extensions</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">pdf</td>
-<td style="text-align: left;">Converts the item into PDF format.</td>
-<td>csv, doc, docx, odp, ods, odt, pot, potm, potx, pps, ppsx, ppsxm, ppt, pptm, pptx, rtf, xls, xlsx</td>
-</tr>
-</tbody>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left;">Format value</th>
+      <th style="text-align: left;">Description</th>
+      <th>Supported source extensions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">pdf</td>
+      <td style="text-align: left;">Converts the item into PDF format.</td>
+      <td>csv, doc, docx, odp, ods, odt, pot, potm, potx, pps, ppsx, ppsxm, ppt, pptm, pptx, rtf, xls, xlsx</td>
+    </tr>
+  </tbody>
 </table>
 
 ### 📫&nbsp; Have a question? Found a Bug? 
