@@ -52,6 +52,8 @@ This application is not for converting an XML file using the standards for elect
 ### ✅&nbsp; Requirements
 
 + A subscription account [Office365](https://developer.microsoft.com/en-us/microsoft-365/dev-program).
++ Register an Application in Azure AD & assign permissions.
+
 
 ### 🚀&nbsp; Usage
 
