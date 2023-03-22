@@ -1,38 +1,37 @@
-﻿<br/>
+﻿<br />
 <p align="center">
-    <a href="" target="_blank">
-        <img width="10%" src="https://symbols.getvecta.com/stencil_28/38_functions.09b75fbe38.svg" alt="Azure Function">
-    </a>
+  <a href="" target="_blank">
+    <img width="10%" src="https://symbols.getvecta.com/stencil_28/38_functions.09b75fbe38.svg" alt="Azure Function">
+  </a>
 </p>
-
-<br/>
+<br />
 <p align="center">
-    <a href="LICENSE.txt" target="_blank">
-        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="">
-    </a>
-    <a href="https://github.com/sergiokml/FunctionPdfConvert/releases" target="_blank">
-        <img src="https://img.shields.io/github/tag/sergiokml/FunctionPdfConvert.svg" alt="">
-    </a>   
-    <a href="https://github.com/sergiokml/FunctionPdfConvert/" target="_blank">
-        <img src="https://img.shields.io/github/commit-activity/y/sergiokml/FunctionPdfConvert.svg" alt="">
-    </a>
-    <a href="https://github.com/sergiokml/FunctionPdfConvert/contributors" target="_blank">
-        <img src="https://img.shields.io/github/contributors-anon/sergiokml/FunctionPdfConvert.svg" alt="">
-    </a>
-    <a href="https://www.nuget.org/profiles/sergiokml" target="_blank">
-        <img src="https://img.shields.io/github/downloads/sergiokml/FunctionPdfConvert/total" alt="">
-    </a>
-    <a>
+  <a href="LICENSE.txt" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="">
+  </a>
+  <a href="https://github.com/sergiokml/FunctionPdfConvert/releases" target="_blank">
+    <img src="https://img.shields.io/github/tag/sergiokml/FunctionPdfConvert.svg" alt="">
+  </a>
+  <a href="https://github.com/sergiokml/" target="_blank">
+    <img src="https://img.shields.io/github/commit-activity/y/sergiokml/FunctionPdfConvert.svg" alt="">
+  </a>
+  <a href="https://github.com/sergiokml/FunctionPdfConvert/contributors" target="_blank">
+    <img src="https://img.shields.io/github/contributors-anon/sergiokml/FunctionPdfConvert.svg" alt="">
+  </a>
+  <a href="https://github.com/sergiokml/FunctionPdfConvert/releases" target="_blank">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/sergiokml/FunctionPdfConvert/total">
+  </a>
+  <a>
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/sergiokml/FunctionPdfConvert">
-    </a> 
+  </a>
 </p>
-<br/>
+<br />
 
 Function Azure that allows to upload a file and download it as PDF format.
 This application is not for converting an XML file using the standards for electronic invoices set by [Servicio de Impuestos Internos](https://www.sii.cl/).
 
 ### ✅&nbsp; Details
-
+![GitHub all releases](https://img.shields.io/github/downloads/sergiokml/FunctionPdfConvert/total)
 + 
 
 ### ✅&nbsp; Requirements
