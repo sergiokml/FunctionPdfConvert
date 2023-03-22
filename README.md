@@ -11,22 +11,29 @@
         <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="">
     </a>
     <a href="https://github.com/sergiokml/FunctionPdfConvert/releases" target="_blank">
-        <img src="https://img.shields.io/github/tag/sulu/sulu.svg" alt="GitHub tag (latest SemVer)">
+        <img src="https://img.shields.io/github/tag/sergiokml/FunctionPdfConvert.svg" alt="">
     </a>   
     <a href="https://github.com/sergiokml/FunctionPdfConvert/" target="_blank">
-        <img src="https://img.shields.io/github/commit-activity/y/sulu/sulu.svg" alt="">
+        <img src="https://img.shields.io/github/commit-activity/y/sergiokml/FunctionPdfConvert.svg" alt="">
     </a>
     <a href="https://github.com/sergiokml/FunctionPdfConvert/contributors" target="_blank">
-        <img src="https://img.shields.io/github/contributors-anon/sulu/sulu.svg" alt="">
+        <img src="https://img.shields.io/github/contributors-anon/sergiokml/FunctionPdfConvert.svg" alt="">
     </a>
     <a href="https://www.nuget.org/profiles/sergiokml" target="_blank">
         <img src="https://img.shields.io/github/downloads/sergiokml/FunctionPdfConvert/total" alt="">
     </a>
+    <a>
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/sergiokml/FunctionPdfConvert">
+    </a> 
 </p>
 <br/>
 
 Function Azure that allows to upload a file and download it as PDF format.
 This application is not for converting an XML file using the standards for electronic invoices set by [Servicio de Impuestos Internos](https://www.sii.cl/).
+
+### ✅&nbsp; Details
+
++ 
 
 ### ✅&nbsp; Requirements
 
@@ -57,11 +64,11 @@ These are the [supported](https://learn.microsoft.com/en-us/graph/api/driveitem-
 </tbody>
 </table>
 
-#### 📫&nbsp; Have a question? Found a Bug? 
+### 📫&nbsp; Have a question? Found a Bug? 
 
 Feel free to **file a new issue** with a respective title and description on the [FunctionPdfConvert/issues](https://github.com/sergiokml/FunctionPdfConvert/issues) repository.
 
-#### ❤️&nbsp; Community and Contributions
+### ❤️&nbsp; Community and Contributions
 
 I think that **Knowledge Doesn’t Belong to Just Any One Person**, and I always intend to share my knowledge with other developers, a voluntary monetary contribution or contribute ideas and/or comments to improve these tools would be appreciated.
 
@@ -72,6 +79,6 @@ I think that **Knowledge Doesn’t Belong to Just Any One Person**, and I always
 </p>
 
 
-#### 📘&nbsp; License
+### 📘&nbsp; License
 
 All my repository content is released under the terms of the [MIT License](LICENSE.txt).
