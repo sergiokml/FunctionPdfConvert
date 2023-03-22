@@ -8,19 +8,19 @@
 <br/>
 <p align="center">
     <a href="LICENSE.txt" target="_blank">
-        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="GitHub license">
+        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="">
     </a>
     <a href="https://github.com/sergiokml/FunctionPdfConvert/releases" target="_blank">
         <img src="https://img.shields.io/github/tag/sulu/sulu.svg" alt="GitHub tag (latest SemVer)">
     </a>   
     <a href="https://github.com/sergiokml/FunctionPdfConvert/" target="_blank">
-        <img src="https://img.shields.io/github/commit-activity/y/sulu/sulu.svg" alt="GitHub commit activity">
+        <img src="https://img.shields.io/github/commit-activity/y/sulu/sulu.svg" alt="">
     </a>
     <a href="https://github.com/sergiokml/FunctionPdfConvert/contributors" target="_blank">
-        <img src="https://img.shields.io/github/contributors-anon/sulu/sulu.svg" alt="GitHub contributors">
+        <img src="https://img.shields.io/github/contributors-anon/sulu/sulu.svg" alt="">
     </a>
-    <a href="https://packagist.org/packages/sergiokml/" target="_blank">
-        <img src="https://img.shields.io/packagist/dt/sulu/sulu.svg" alt="Packagist downloads">
+    <a href="https://www.nuget.org/profiles/sergiokml" target="_blank">
+        <img src="https://img.shields.io/github/downloads/sergiokml/FunctionPdfConvert/total" alt="">
     </a>
 </p>
 <br/>
