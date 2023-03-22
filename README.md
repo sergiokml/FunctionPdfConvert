@@ -7,8 +7,8 @@
 
 <br/>
 <p align="center">
-    <a href="LICENSE" target="_blank">
-        <img src="https://img.shields.io/github/license/sulu/sulu.svg" alt="GitHub license">
+    <a href="LICENSE.txt" target="_blank">
+        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="GitHub license">
     </a>
     <a href="https://github.com/sulu/sulu/releases" target="_blank">
         <img src="https://img.shields.io/github/tag/sulu/sulu.svg" alt="GitHub tag (latest SemVer)">
@@ -74,4 +74,4 @@ I think that **Knowledge Doesn’t Belong to Just Any One Person**, and I always
 
 ### 📘&nbsp; License
 
-All my repository content is released under the terms of the [MIT License](LICENSE).
+All my repository content is released under the terms of the [MIT License](LICENSE.txt).
