@@ -63,7 +63,7 @@ Feel free to **file a new issue** with a respective title and description on the
 
 ### ❤️&nbsp; Community and Contributions
 
-I have always thought that **the knowledge does not belong to us**, and I always intend to share my knowledge with other programmers, a voluntary monetary contribution or contribute ideas and/or comments to improve these tools would be appreciated.
+I think that **Knowledge Doesn’t Belong to Just Any One Person**, and I always intend to share my knowledge with other programmers, a voluntary monetary contribution or contribute ideas and/or comments to improve these tools would be appreciated.
 
 <p align="center">
     <a href="https://www.paypal.com/donate/?hosted_button_id=PTKX9BNY96SNJ" target="_blank">
