@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FuncPdfConvert": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7229 start --verbose"
+    }
+  }
+}
