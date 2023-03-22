@@ -10,8 +10,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.Graph;
 using Microsoft.Graph.Models;
 using Microsoft.Graph.Models.ODataErrors;
@@ -20,10 +20,11 @@ namespace FuncPdfConvert
 {
     internal class ConvertToPdf
     {
-        private readonly Options options;
-        public ConvertToPdf(IOptions<Options> options)
+        private readonly IConfiguration configuration;
+        public ConvertToPdf(IConfiguration configuration)
         {
-            this.options = options.Value;
+            this.configuration = configuration;
+
         }
 
         [FunctionName("ConvertToPdf")]
@@ -38,19 +39,19 @@ namespace FuncPdfConvert
 
                 // UPLOAD FILE
                 DriveCollectionResponse drives = await client!.Drives.GetAsync();
-                var drive = drives.Value.FirstOrDefault();
-                await client.Drives[drive.Id    ].Root.ItemWithPath(tmpFileName)
+                Drive drive = drives.Value.FirstOrDefault();
+                await client.Drives[drive.Id].Root.ItemWithPath(tmpFileName)
                       .Content.PutAsync(req.Body, null, CancellationToken.None);
                 log.LogInformation("Upload to folder: {a}", drive.Name);
-                
+
                 // DOWNLOAD FILE AS PDF
-                var requestInformation = client.Drives[drive.Id].Root
+                Microsoft.Kiota.Abstractions.RequestInformation requestInformation = client.Drives[drive.Id].Root
                     .ItemWithPath(Path.GetFileName(tmpFileName))
                     .Content.ToGetRequestInformation();
-                requestInformation.UrlTemplate += "{?format}"; 
+                requestInformation.UrlTemplate += "{?format}";
                 requestInformation.QueryParameters.Add("format", "pdf");
-                var stream = await client.RequestAdapter.SendPrimitiveAsync<Stream>(requestInformation);
-                return new OkObjectResult(stream);           
+                Stream stream = await client.RequestAdapter.SendPrimitiveAsync<Stream>(requestInformation);
+                return new OkObjectResult(stream);
 
             }
             catch (ODataError odataError)
@@ -66,10 +67,10 @@ namespace FuncPdfConvert
         {
             string[] scopes = { "https://graph.microsoft.com/.default" };
             ClientSecretCredential clientSecretCredential =
-                new(
-                    options.TenantId,
-                   options.ClientId,
-                    options.ClientSecret,
+            new(
+                    configuration.GetValue<string>("ADConfig:TenantId"),
+                   configuration.GetValue<string>("ADConfig:ClientId"),
+                    configuration.GetValue<string>("ADConfig:ClientSecret"),
                     new() { AuthorityHost = AzureAuthorityHosts.AzurePublicCloud }
                 );
             GraphServiceClient graphClient = new(clientSecretCredential, scopes);
