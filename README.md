@@ -24,7 +24,7 @@
 </p>
 <br />
 
-Function Azure that allows to upload a file (to ShraePoint site) and download it as PDF format.
+Function Azure that allows to upload a file (to SharePoint site) and download it as PDF format.
 This application is not for converting an XML file using the standards for electronic invoices set by [Servicio de Impuestos Internos](https://www.sii.cl/).
 
 ### 📝&nbsp; Details
